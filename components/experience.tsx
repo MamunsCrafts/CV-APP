@@ -1,7 +1,7 @@
 export default function Experience(){
     return (
       <div>
-        <p className="text-2xl font-bold border-b-2 border-spacing-2 border-black">Work Experience</p>
+        <p className="text-xl font-semibold border-b-2 border-spacing-2 border-black">Work Experience</p>
         <div>
           {" "}
           <div className="flex ">

@@ -35,7 +35,7 @@ export default function Sidebar(){
               <p className="bg-white rounded-full w-[1px] h-10 text-xs ml-[2px]"></p>
             </div>
             <div>
-              <p className="text-sm">Bsc Engineering(3.16)</p>
+              <p className="text-sm">Bsc Engineering</p>
               <p className="text-sm">University of Rajshahi</p>
               <p className="text-xs">January2017-June2022</p>
             </div>
@@ -99,7 +99,7 @@ export default function Sidebar(){
 
         <div className="mt-6 mx-5 flex-col pb-20">
           <p className="text-xl">Link</p>
-          
+
           <p>
             <a href="https://github.com/Mamun1646" className="underline text-sx">
               Github
