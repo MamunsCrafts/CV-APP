@@ -4,7 +4,7 @@ export default function Projects(){
         <p className="text-2xl font-bold border-b-2 border-spacing-2 border-black">Academic Projects</p>
         <div>
           {" "}
-          <p className="text-lg font-bold">Alumni and Informatino Management System</p>
+          <p className="text-lg font-bold">Alumni and Information Management System</p>
           <ul className="list-disc text-sm ml-10">
             <li>This website was built with reactjs, material ui, and nodejs.</li>
             <li>This software may be registered and accessed by both students and teachers.</li>
