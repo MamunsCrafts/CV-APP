@@ -1,7 +1,7 @@
 import Image from 'next/image'
 export default function Sidebar(){
     return (
-      <div className="bg-black text-white w-80 rounded-l-lg ">
+      <div className="bg-black text-white w-80  rounded-l-lg ">
         <div className="pt-10">
           <Image
             src="/formal.jpg"
