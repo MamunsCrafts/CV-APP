@@ -10,9 +10,11 @@ export default function Projects(){
             <li>This software may be registered and accessed by both students and teachers.</li>
             <li>Teachers can send mass emails to students in a certain session.</li>
             <li>Allumni can publish job suggestions and job openings etc.</li>
-            <li className=" text-blue-700 font-semibold">
+            <li >
 
-              <a href="https://github.com/Mamun1646/Alumni_And_Information_Management_System">Source Code</a>
+              <p className="italic underline text-blue-600 text-xs hover:cursor-pointer">
+                Code Link : https://github.com/Mamun1646/Alumni_And_Information_Management_System
+              </p>
             </li>
           </ul>
         </div>

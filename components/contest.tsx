@@ -10,23 +10,32 @@ export default function Contest(){
           <ul className="list-disc ml-10 text-sm">
             <li>
               82+ Contest and 620+ problem solved in{" "}
-              <a className="text-blue-700 font-semibold" href="https://codeforces.com/profile/Mamun">
+              <a  href="https://codeforces.com/profile/Mamun">
                 Codeforces
               </a>{" "}
               online Judge.
+              <p className="text-blue-700 underline hover:cursor-pointer text-sm italic">
+                Link : https://codeforces.com/profile/Mamun{" "}
+              </p>
             </li>
             <li>
               100 + problem solved in{" "}
-              <a className="text-blue-700 font-semibold" href="https://leetcode.com/Mamun16/">
+              <a  href="https://leetcode.com/Mamun16/">
                 Leetcode
               </a>
               .
+              <p className="text-blue-700 hover:cursor-pointer underline text-sm italic">
+                Link : https://leetcode.com/Mamun16/{" "}
+              </p>
             </li>
             <li>
               100+ problem solved in different Judges.{" "}
-              <a className="text-blue-700 font-semibold" href="https://www.stopstalk.com/user/profile/Mamun_16">
+              <a  href="https://www.stopstalk.com/user/profile/Mamun_16">
                 StopStalk Link
               </a>
+              <p className="text-blue-700 hover:cursor-pointer underline text-sm italic">
+                Link : https://www.stopstalk.com/user/profile/Mamun_16{" "}
+              </p>
             </li>
           </ul>
         </div>

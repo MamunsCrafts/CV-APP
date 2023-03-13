@@ -28,7 +28,7 @@ export default function Sidebar(){
           </div>
         </div>
         <div className="mt-10 mx-5 space-y-2">
-          <p className="text-xl ">Education</p>
+          <p className="text-xl mb-4">Education</p>
           <div className="flex space-x-3">
             <div className="space-y-2">
               <p className="bg-white rounded-full w-2 h-2 text-xs mt-[9px]"></p>
@@ -52,8 +52,8 @@ export default function Sidebar(){
           </div>
         </div>
 
-        <div className="mt-6 mx-5">
-          <p className="text-xl">Skills</p>
+        <div className="mt-10 mx-5">
+          <p className="text-xl mb-4">Skills</p>
 
           <p>Nextjs</p>
           <div className="w-32 bg-gray-600  h-2  dark:bg-gray-700">
@@ -86,7 +86,7 @@ export default function Sidebar(){
         </div>
 
         <div className="mt-6 mx-5">
-          <p className="text-xl">Languages</p>
+          <p className="text-xl mb-4">Languages</p>
           <p>English</p>
           <div className="w-32 bg-gray-600  h-2  dark:bg-gray-700">
             <div className="bg-white h-2 " style={{ width: "75%" }} />
@@ -97,7 +97,7 @@ export default function Sidebar(){
           </div>
         </div>
 
-        <div className="mt-6 mx-5 flex-col pb-20">
+        {/* <div className="mt-6 mx-5 flex-col pb-20">
           <p className="text-xl">Link</p>
 
           <p>
@@ -115,7 +115,7 @@ export default function Sidebar(){
               LinkedIn
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
     )
 }
