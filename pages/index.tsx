@@ -18,22 +18,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex w-[792px] h-[1123px] mx-auto  mb-10 bg-slate-200 pr-4 rounded-lg">
-      {/* <div className="flex "> */}
+        {/* <div className="flex "> */}
         <Sidebar />
         <div>
-          <div className="bg-[#ed7839] h-16 rounded-r-full py-2  text-xl w-96 text-center mt-16">
-           <p className="font-semibold">MD AL MAMUN MIM</p>
-           <p className="text-sm">Junior Software Engineer</p>
+          <div className="bg-black h-16 rounded-r-full py-2 text-white  text-xl w-96  mt-16">
+            <p className="font-semibold ml-14">MD AL MAMUN MIM</p>
+            <p className="text-sm ml-14">Junior Software Engineer</p>
           </div>
           <div className="ml-14 flex-col space-y-4">
-          <Summery />
-          <Experience />
-          <Contest />
-          <Projects/>
+            <Summery />
+            <Experience />
+            <Contest />
+            <Projects />
           </div>
-
         </div>
       </div>
     </div>
-  );
+  )
 }
