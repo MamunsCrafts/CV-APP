@@ -11,7 +11,7 @@ export default function Experience(){
           <p className="text-slate-600 text-xs">February2023-present</p>
           <ul className="list-disc ml-10 text-sm">
             <li>
-              I created a software application for Car Showroom (Inventory management) that increased the company&aposs
+              I created a software application for Car's Showroom (Inventory management) that increased the company's
               efficiency.
             </li>
             <li>We utilized object-oriented design principles to develop high-quality software applications.</li>

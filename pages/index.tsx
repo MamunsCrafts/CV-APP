@@ -17,11 +17,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex w-[792px] h-[1123px] mx-auto  mb-10 bg-slate-200 pr-4 rounded-lg">
+      <div className="flex w-[792px] h-[1123px] mx-auto mt-10  mb-10 bg-slate-200 pr-4 rounded-lg">
         {/* <div className="flex "> */}
         <Sidebar />
         <div>
-          <div className="bg-black h-16 rounded-r-full py-2 text-white  text-xl w-96  mt-16">
+          <div className="flex justify-end">
+            <p className="font-semibold"> Live CV Link :</p>{" "}
+            <p className="underline text-end italic text-blue-900">https://mamun-cv.vercel.app/</p>
+          </div>
+          <div className="bg-black h-16 rounded-r-full py-2 text-white  text-xl w-96 mt-10 ">
             <p className="font-semibold ml-14">MD AL MAMUN MIM</p>
             <p className="text-sm ml-14">Junior Software Engineer</p>
           </div>
