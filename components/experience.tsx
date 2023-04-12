@@ -1,4 +1,6 @@
+import { useRouter } from "next/router"
 export default function Experience(){
+  const router =useRouter()
     return (
       <div>
         <p className="text-xl font-semibold border-b-2 border-spacing-2 border-black">Work Experience</p>
@@ -11,8 +13,28 @@ export default function Experience(){
           <p className="text-slate-600 text-xs">February2023-present</p>
           <ul className="list-disc ml-10 text-sm">
             <li>
-              I created a software application for Car Showroom (Inventory management) that increased the company&aposs
-              efficiency.
+              I'm currently a full stack developer for the{" "}
+              <span
+                className="text-blue-600 cursor-pointer uppercase"
+                onClick={() => {
+                  router.push("http://admin.fanfarebd.com/")
+                }}>
+                {" "}
+                fanfare{" "}
+              </span>
+              admin panel.
+            </li>
+            <li>
+              I created a software application for{" "}
+              <span
+                className="text-blue-600 cursor-pointer uppercase"
+                onClick={() => {
+                  router.push("http://goldenmilesapp.com")
+                }}>
+                {" "}
+                Car Showroom
+              </span>
+              (Inventory management) that increased the company&aposs efficiency.
             </li>
             <li>We utilized object-oriented design principles to develop high-quality software applications.</li>
             <li>
