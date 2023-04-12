@@ -13,7 +13,7 @@ export default function Experience(){
           <p className="text-slate-600 text-xs">February2023-present</p>
           <ul className="list-disc ml-10 text-sm">
             <li>
-              I'm currently a full stack developer for the{" "}
+              Im currently working as a full stack developer for the{" "}
               <span
                 className="text-blue-600 cursor-pointer uppercase"
                 onClick={() => {
@@ -34,7 +34,7 @@ export default function Experience(){
                 {" "}
                 Car Showroom
               </span>
-              (Inventory management) that increased the company&aposs efficiency.
+              (Inventory management) that increased the company efficiency.
             </li>
             <li>We utilized object-oriented design principles to develop high-quality software applications.</li>
             <li>
