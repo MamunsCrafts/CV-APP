@@ -1,58 +1,32 @@
 import { useRouter } from "next/router"
+import { workExperience } from "./data"
 export default function Experience(){
   const router =useRouter()
     return (
       <div>
-        <p className="text-xl font-semibold border-b-2 border-spacing-2 border-black">Work Experience</p>
-        <div>
-          {" "}
-          <div className="flex ">
-            <p className="text-lg font-bold"> Junior Software Engineer,Talent Pro</p>{" "}
-            <p className="text-sm mt-1 text-slate-400">,Banani DOHS,Dhaka</p>
+        <p className="text-xl font-semibold border-b-2 border-spacing-2 border-black">{workExperience[0].field}</p>
+        {workExperience.map((work,idx) => (
+          <div key={idx}>
+            {" "}
+            <div className="flex flex-col ">
+              <p className="text-lg font-bold"> {work.institution}</p>
+
+              <p className="text-md "> {work.subTag}</p>
+
+            </div>
+            <p className="text-slate-600 text-xs">{work.time}</p>
+            <ul className="list-disc ml-10 text-sm">
+              {work.description.map((item,idx)=>
+               <li>
+                {item}
+
+              </li>)}
+
+
+            </ul>
           </div>
-          <p className="text-slate-600 text-xs">February2023-present</p>
-          <ul className="list-disc ml-10 text-sm">
-            <li>
-              Im currently working as a full stack developer for the{" "}
-              <span
-                className="text-blue-600 cursor-pointer uppercase"
-                onClick={() => {
-                  router.push("http://admin.fanfarebd.com/")
-                }}>
-                {" "}
-                fanfare{" "}
-              </span>
-              admin panel.
-            </li>
-            <li>
-              I created a software application for{" "}
-              <span
-                className="text-blue-600 cursor-pointer uppercase"
-                onClick={() => {
-                  router.push("http://goldenmilesapp.com")
-                }}>
-                {" "}
-                Car Showroom
-              </span>
-              (Inventory management) that increased the company efficiency.
-            </li>
-            <li>We utilized object-oriented design principles to develop high-quality software applications.</li>
-            <li>
-              My position entails full stack web development with tools such as nextjs, tailwindcss, nestjs, graphql,
-              and mongodb.
-            </li>
-          </ul>
-        </div>
-        <div>
-          <div className="flex ">
-            <p className="text-lg font-bold"> Software Engineer Intern,Talent Pro</p>{" "}
-            <p className="text-sm mt-1 text-slate-400">,Banani DOHS,Dhaka</p>
-          </div>
-          <p className="text-slate-600 text-xs">Auagst2022-February2023</p>
-          <ul className="list-disc ml-10 text-sm">
-            <li>I made the Quran Analyzer App with Nextjs, Tailwindcss, Nestjs, and Mongodb.</li>
-          </ul>
-        </div>
+        ))}
+
       </div>
     )
 }
