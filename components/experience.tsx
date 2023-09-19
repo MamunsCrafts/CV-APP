@@ -8,51 +8,29 @@ export default function Experience(){
           {" "}
           <div className="flex ">
             <p className="text-lg font-bold"> Junior Software Engineer,Talent Pro</p>{" "}
-            <p className="text-sm mt-1 text-slate-400">,Banani DOHS,Dhaka</p>
+            <p className="text-sm mt-1">,Banani DOHS,Dhaka</p>
           </div>
-          <p className="text-slate-600 text-xs">February2023-present</p>
+          <p className="text-slate-600 text-xs">August2023-present</p>
           <ul className="list-disc ml-10 text-sm">
             <li>
-              Im currently working as a full stack developer for the{" "}
-              <span
-                className="text-blue-600 cursor-pointer uppercase"
-                onClick={() => {
-                  router.push("http://admin.fanfarebd.com/")
-                }}>
-                {" "}
-                fanfare{" "}
-              </span>
-              admin panel.
+            Collaborated with the Front-end team to implement new features.
+             
             </li>
             <li>
-              I created a software application for{" "}
-              <span
-                className="text-blue-600 cursor-pointer uppercase"
-                onClick={() => {
-                  router.push("http://goldenmilesapp.com")
-                }}>
-                {" "}
-                Car Showroom
-              </span>
-              (Inventory management) that increased the company efficiency.
+            Led decision-making meetings for the creation of highly responsive and reusable components.
+             
+             
             </li>
-            <li>We utilized object-oriented design principles to develop high-quality software applications.</li>
+            <li>Developed APIs using GraphQL to facilitate other developer&apos;s work.</li>
             <li>
-              My position entails full stack web development with tools such as nextjs, tailwindcss, nestjs, graphql,
-              and mongodb.
+            Worked closely with the database team to optimize queries.
+            </li>
+            <li>
+            Engaged in post-sprint meetings with the business team to plan and implement new features for the next sprint.
             </li>
           </ul>
         </div>
-        <div>
-          <div className="flex ">
-            <p className="text-lg font-bold"> Software Engineer Intern,Talent Pro</p>{" "}
-            <p className="text-sm mt-1 text-slate-400">,Banani DOHS,Dhaka</p>
-          </div>
-          <p className="text-slate-600 text-xs">Auagst2022-February2023</p>
-          <ul className="list-disc ml-10 text-sm">
-            <li>I made the Quran Analyzer App with Nextjs, Tailwindcss, Nestjs, and Mongodb.</li>
-          </ul>
-        </div>
+       
       </div>
     )
 }
