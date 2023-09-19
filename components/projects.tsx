@@ -1,7 +1,7 @@
 export default function Projects(){
     return (
       <div>
-        <p className="text-xl font-semibold border-b-2 border-spacing-2 border-black">Academic Projects</p>
+        <p className="text-xl font-semibold border-b-2 border-spacing-2 border-black">Projects</p>
         <div>
           {" "}
          
