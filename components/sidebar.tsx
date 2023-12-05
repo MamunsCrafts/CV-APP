@@ -24,7 +24,7 @@ export default function Sidebar(){
           </div>
           <div className="flex space-x-2">
             <Image src="/location.png" alt="Picture of Mamun" width={20} height={20} />
-            <p className="text-xs">T.B. Gate, Mohakhali, Dhaka-1212</p>
+            <p className="text-xs">Kochukhet,Dhaka</p>
           </div>
         </div>
         <div className="mt-10 mx-5 space-y-2">

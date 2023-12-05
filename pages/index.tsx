@@ -20,7 +20,7 @@ export default function Home() {
         <div>
           <div className="bg-teal-900 h-16 rounded-r-full py-2 text-white  text-xl w-96  mt-16">
             <p className="font-semibold ml-14">MD AL MAMUN MIM</p>
-            <p className="text-sm ml-14">Junior Software Engineer</p>
+            <p className="text-sm ml-14">Software Engineer</p>
           </div>
           <div className="ml-14 flex-col space-y-4">
             <Summery />
