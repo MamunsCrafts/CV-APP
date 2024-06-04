@@ -7,26 +7,18 @@ export default function Experience(){
         <div>
           {" "}
           <div className="flex ">
-            <p className="text-lg font-bold"> Software Engineer,Talent Pro</p>{" "}
+            <p className="text-lg font-bold"> Software Developer,Fanfare Bangladesh</p>{" "}
             <p className="text-sm mt-1">,Banani DOHS,Dhaka</p>
           </div>
-          <p className="text-slate-600 text-xs">August2023-present</p>
+          <p className="text-slate-600 text-xs">22 August 2022-present</p>
           <ul className="list-disc ml-10 text-sm">
             <li>
             Collaborated with the Front-end team to implement new features.
              
             </li>
-            <li>
-            Led decision-making meetings for the creation of highly responsive and reusable components.
-             
-             
-            </li>
             <li>Developed APIs using GraphQL to facilitate other developer&apos;s work.</li>
             <li>
             Worked closely with the database team to optimize queries.
-            </li>
-            <li>
-            Engaged in post-sprint meetings with the business team to plan and implement new features for the next sprint.
             </li>
           </ul>
         </div>
