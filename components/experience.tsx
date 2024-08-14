@@ -7,7 +7,7 @@ export default function Experience(){
         <div>
           {" "}
           <div className="flex ">
-            <p className="text-lg font-bold"> Software Developer,Fanfare Bangladesh</p>{" "}
+            <p className="text-lg font-bold"> Software Developer,Talent Pro</p>{" "}
             <p className="text-sm mt-1">,Banani DOHS,Dhaka</p>
           </div>
           <p className="text-slate-600 text-xs">22 August 2022-present</p>
